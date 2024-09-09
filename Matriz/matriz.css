@@ -1,0 +1,346 @@
+.info-icon,
+.info-icon2,
+.info-icon3,
+.info-icon4,
+.info-icon5,
+.info-icon6,
+.info-icon7,
+.info-icon8,
+.info-icon9,
+.info-icon10,
+.info-icon11,
+.info-icon12
+
+{
+    display: inline-block;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: #007BFF;
+            color: white;
+            text-align: center;
+            line-height: 20px;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-left: 10px;
+            position: relative;
+            z-index: 100;
+}
+
+.tooltip,
+.tooltip3,
+.tooltip4,
+.tooltip5,
+.tooltip6,
+.tooltip7,
+.tooltip8,
+.tooltip10,
+.tooltip11,
+.tooltip12,
+.tooltip13
+{
+    display: none;
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 200px;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+}
+
+.tooltip9
+{
+    display: none;
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 11px;
+    width: 200px;
+    bottom: -10px;
+    left: 104%;
+    z-index: 1000;
+}
+
+.info-icon:hover .tooltip,
+.info-icon2:hover .tooltip3,
+.info-icon3:hover .tooltip4,
+.info-icon4:hover .tooltip5,
+.info-icon5:hover .tooltip6,
+.info-icon6:hover .tooltip7,
+.info-icon7:hover .tooltip8,
+.info-icon8:hover .tooltip9,
+.info-icon9:hover .tooltip10,
+.info-icon10:hover .tooltip11,
+.info-icon11:hover .tooltip12,
+.info-icon12:hover .tooltip13
+{
+display: block;
+}
+
+select.selectPeligros,
+select.riesgosB,
+select.riesgosF,
+select.riesgosQ,
+select.riesgoP,
+select.riesgoBio,
+select.riesgoS,
+select.riesgoFen 
+{
+    width: 70%;
+    padding: 8px;
+    border: none;
+    border-bottom: 2px solid #4ea4eb;
+    border-radius: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+select.selectPeligros:focus,
+select.riesgosB:focus,
+select.riesgosF:focus,
+select.riesgosQ:focus,
+select.riesgoP:focus,
+select.riesgoBio:focus,
+select.riesgoS:focus,
+select.riesgoFen:focus 
+{
+    border-bottom: 2px solid #4ea4eb;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 255, 0.2);
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 8px;
+    border: none;
+    border-bottom: 2px solid #4ea4eb;
+    border-radius: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus {
+    border-bottom: 2px solid #4ea4eb;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 255, 0.2);
+}
+
+
+
+.infoP 
+{
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: #007BFF;
+            color: white;
+            text-align: center;
+            line-height: 20px;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-left: 10px;
+            position: relative;
+}
+
+.tooltip2 
+{
+    display: none;
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 200px;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+}
+
+.infoP:hover .tooltip2 
+{
+    display: block;
+}
+
+body 
+{
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.nav 
+{
+    background-color: #4ea4eb;
+    color: white;
+    padding: 13px 20px;
+    text-align: center;
+}
+.nav h1 
+{
+    margin: 0;
+    font-size: 27px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7), 0 0 20px rgba(255, 255, 255, 0.5);
+    transition: scale 0.5s, color 0.5s ease, text-shadow 0.5s ease;
+}
+
+.nav h1:hover
+{
+    text-shadow: 0 0 10px #0b2b46, 0 0 20px #0b2b46;
+    color: #0b2b46;
+    cursor: pointer;
+    scale: 1.2;
+}
+
+table {
+    width: 80%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+}
+
+th, td {
+    border: none;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #4ea4eb;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #4ea4eb;
+}
+
+td {
+    background-color: #4ea4eb0c;
+    border-bottom: 1px solid #4ea4eb;
+}
+
+tr:nth-child(even) {
+    background-color: #e0e0e0;
+}
+
+tr:hover {
+    background-color: #d1e6f5;
+}
+
+table caption {
+    font-size: 24px;
+    margin: 10px 0;
+    font-weight: bold;
+    color: #4ea4eb;
+    text-align: center;
+}
+
+table caption:hover {
+    color: #0b2b46;
+    cursor: pointer;
+}
+
+input[type="submit"] 
+{
+    background-color: #4ea4eb;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+input[type="submit"]:hover 
+{
+    background-color: #0b2b46;
+    transform: scale(1.05);
+}
+
+td[colspan="3"] {
+    text-align: center;
+}
+
+.btn-back {
+    display: inline-block;
+    background-color: #0b2b46;
+    color: white;
+    padding: 10px 20px;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 15px;
+    margin-left: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-back:hover {
+    background-color: #4ea4eb;
+    transform: scale(1.05);
+}
+
+.data-summary 
+{
+    text-align: center;
+    background-color: #f9f9f9;
+    border: 1px solid #4ea4eb;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.data-summary h2 {
+    font-size: 24px;
+    color: #4ea4eb;
+    margin-bottom: 15px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.data-summary ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.data-summary li {
+    padding: 10px 0;
+    border-bottom: 1px solid #4ea4eb;
+}
+
+.data-summary li:last-child {
+    border-bottom: none;
+}
+
+.data-summary strong {
+    color: #333;
+    font-weight: bold;
+}
+
+.data-summary li:nth-child(odd) {
+    background-color: #f4f4f4;
+}
+
+.data-summary li:nth-child(even) {
+    background-color: #ffffff;
+}
